@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="Suite1" parallel="methods" thread-count="5">
+    <test name="Bank Application Test" >
+        <classes>
+            <class name="test.BankAppTest" />
+        </classes>
+    </test>
+</suite>
